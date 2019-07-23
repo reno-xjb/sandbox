@@ -22,5 +22,9 @@
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
     "cz-conventional-changelog": "^3.0.2"
+  },
+  "scripts": {
+    "lerna:version": "lerna version --conventional-commits",
+    "lerna:publish": "lerna publish"
   }
 }
