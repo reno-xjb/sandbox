@@ -1,2 +1,2 @@
 console.log('test');
-console.log('NEW FEATURE');
+console.log('NEW FEATURE, with a BREAKING change');
