@@ -1,14 +1,6 @@
 language: node_js
 node_js:
   - "10"
-env:
-  - CXX=g++-4.8
-addons:
-  apt:
-    sources:
-      - ubuntu-toolchain-r-test
-    packages:
-      - g++-4.8
 install:
   - yarn install
 cache:
@@ -16,10 +8,14 @@ cache:
     - "node_modules"
 notifications:
   email: false
+before_deploy:
+  - git config user.email "travis@travis-ci.org"
+  - git config user.name "Travis CI"
+  - git remote set-url origin https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git
+  - git checkout master
 deploy:
   provider: script
-  script: .travis/deploy.sh
+  script: yarn release
   skip_cleanup: true
   on:
     branch: master
-    tags: false

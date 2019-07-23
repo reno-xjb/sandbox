@@ -25,7 +25,7 @@
   },
   "scripts": {
     "test": "lerna run test",
-    "lerna:version": "lerna version --conventional-commits",
-    "lerna:publish": "lerna publish"
+    "release": "lerna version --conventional-commits --yes",
+    "publish": "lerna publish"
   }
 }
