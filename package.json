@@ -1,0 +1,24 @@
+{
+  "private": "true",
+  "name": "sandbox",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/reno-xjb/sandbox",
+  "author": "reno-xjb",
+  "license": "MIT",
+  "dependencies": {
+    "lerna": "^3.16.2"
+  },
+  "workspaces": [
+    "packages/test",
+    "packages/test2"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2"
+  }
+}
