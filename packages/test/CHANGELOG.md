@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/reno-xjb/sandbox/compare/test@1.1.0...test@3.0.0) (2019-07-23)
+
+
+### Code Refactoring
+
+* break da break ([00f7c71](https://github.com/reno-xjb/sandbox/commit/00f7c71))
+
+
+### BREAKING CHANGES
+
+* brrrrrrrrrrrrrrrreaking change
+
+
+
+
+
 # [2.0.0](https://github.com/reno-xjb/sandbox/compare/test@1.1.0...test@2.0.0) (2019-07-23)
 
 
