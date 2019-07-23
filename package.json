@@ -24,6 +24,7 @@
     "cz-conventional-changelog": "^3.0.2"
   },
   "scripts": {
+    "test": "lerna run test",
     "lerna:version": "lerna version --conventional-commits",
     "lerna:publish": "lerna publish"
   }
