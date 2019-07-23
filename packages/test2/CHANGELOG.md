@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/reno-xjb/sandbox/compare/test2@0.2.2...test2@0.3.0) (2019-07-23)
+
+
+### Features
+
+* again a new feature ([1c401fa](https://github.com/reno-xjb/sandbox/commit/1c401fa))
+
+
+
+
+
 ## [0.2.2](https://github.com/reno-xjb/sandbox/compare/test2@0.2.1...test2@0.2.2) (2019-07-23)
 
 **Note:** Version bump only for package test2
