@@ -1,6 +1,6 @@
 {
   "name": "test2",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "dependencies": {
     "semantic-release": "^15.13.18",
     "semantic-release-monorepo": "^6.1.1",
-    "test": "^1.0.0"
+    "test": "^1.1.0"
   }
 }

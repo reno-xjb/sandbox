@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/reno-xjb/sandbox/compare/test@1.0.0...test@1.1.0) (2019-07-23)
+
+
+### Features
+
+* again a new feature ([1516c92](https://github.com/reno-xjb/sandbox/commit/1516c92))
+
+
+
+
+
 # 1.0.0 (2019-07-23)
 
 
