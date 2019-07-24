@@ -8,8 +8,8 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "access": "public",
       "npmClient": "npm",
+      "registry": "https://registry.npmjs.com",
       "conventionalCommits": true
     },
     "version": {

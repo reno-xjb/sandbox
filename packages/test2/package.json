@@ -3,6 +3,9 @@
   "version": "0.3.2",
   "license": "MIT",
   "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "semantic-release": "semantic-release -e semantic-release-monorepo"
   },
