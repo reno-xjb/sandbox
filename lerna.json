@@ -3,10 +3,13 @@
     "packages/test",
     "packages/test2"
   ],
+  "npmClient": "yarn",
   "version": "independent",
   "useWorkspaces": true,
   "command": {
     "publish": {
+      "access": "public",
+      "npmClient": "npm",
       "conventionalCommits": true
     },
     "version": {
