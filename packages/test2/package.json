@@ -13,6 +13,6 @@
   "dependencies": {
     "semantic-release": "^15.13.18",
     "semantic-release-monorepo": "^6.1.1",
-    "test": "^3.0.0"
+    "sandbox-test": "^3.0.0"
   }
 }
