@@ -26,6 +26,6 @@
   "scripts": {
     "test": "lerna run test",
     "release": "lerna version --conventional-commits --yes",
-    "publish": "lerna publish"
+    "npm:publish": "lerna publish from-package"
   }
 }
