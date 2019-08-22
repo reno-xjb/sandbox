@@ -13,7 +13,7 @@ before_deploy:
   - git config user.name "Travis CI"
   - git remote set-url origin https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git
   - git checkout master
-  - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
+  - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> .npmrc 2> /dev/null
 deploy:
   - provider: script
     script: yarn release
