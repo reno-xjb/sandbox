@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.5.0 (2019-08-26)
+
+
+### Bug Fixes
+
+* fix name of dependency ([111fb48](https://github.com/reno-xjb/sandbox/commit/111fb48))
+
+
+### Features
+
+* **test2:** add a brand new feature ([686a53d](https://github.com/reno-xjb/sandbox/commit/686a53d))
+* again a new feature ([1c401fa](https://github.com/reno-xjb/sandbox/commit/1c401fa))
+
+
+
+# 0.1.0 (2019-07-23)
+
+
+
+
+
 ## [0.4.1](https://github.com/reno-xjb/sandbox/compare/sandbox-test2@0.4.0...sandbox-test2@0.4.1) (2019-08-26)
 
 **Note:** Version bump only for package sandbox-test2
