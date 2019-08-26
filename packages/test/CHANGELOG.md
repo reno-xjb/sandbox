@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/reno-xjb/sandbox/compare/sandbox-test@4.0.0...sandbox-test@4.1.0) (2019-08-26)
+
+
+### Features
+
+* **sandbox-test:** just a feature ([ab2827c](https://github.com/reno-xjb/sandbox/commit/ab2827c))
+
+
+
+
+
 # 4.0.0 (2019-07-25)
 
 
