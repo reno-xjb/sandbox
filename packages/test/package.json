@@ -1,5 +1,5 @@
 {
-  "name": "sandbox-test",
+  "name": "@reno-sandbox/test",
   "version": "4.1.0",
   "license": "MIT",
   "main": "lib/index.js",

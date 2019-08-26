@@ -1,5 +1,5 @@
 {
-  "name": "sandbox-test2",
+  "name": "@reno-sandbox/test2",
   "version": "0.4.1",
   "license": "MIT",
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
     "semantic-release": "semantic-release -e semantic-release-monorepo"
   },
   "dependencies": {
-    "sandbox-test": "^4.1.0",
+    "@reno-sandbox/test": "^4.1.0",
     "semantic-release": "^15.13.18",
     "semantic-release-monorepo": "^6.1.1"
   }
