@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "docs",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/reno-xjb/sandbox",
+  "author": "reno-xjb",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "view-info": "vuepress view-info docs",
+    "show-help": "vuepress --help",
+    "semantic-release": "semantic-release -e semantic-release-monorepo"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.0.2",
+    "semantic-release": "^15.13.18",
+    "semantic-release-monorepo": "^6.1.1"
+  }
+}

@@ -11,7 +11,8 @@
   },
   "workspaces": [
     "packages/test",
-    "packages/test2"
+    "packages/test2",
+    "packages/docs"
   ],
   "config": {
     "commitizen": {
@@ -24,7 +25,8 @@
     "cz-conventional-changelog": "^3.0.2"
   },
   "scripts": {
-    "test": "lerna run test",
+    "build": "lerna run build --stream",
+    "test": "lerna run test --parallel",
     "release": "lerna version --conventional-commits --yes",
     "npm:publish": "lerna publish from-package --yes"
   }

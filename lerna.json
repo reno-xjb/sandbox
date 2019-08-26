@@ -1,7 +1,8 @@
 {
   "packages": [
     "packages/test",
-    "packages/test2"
+    "packages/test2",
+    "packages/docs"
   ],
   "npmClient": "yarn",
   "version": "independent",
