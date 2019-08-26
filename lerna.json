@@ -9,7 +9,6 @@
   "command": {
     "publish": {
       "npmClient": "npm",
-      "registry": "https://registry.npmjs.com",
       "conventionalCommits": true
     },
     "version": {
